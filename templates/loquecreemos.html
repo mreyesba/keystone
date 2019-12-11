@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Keystone Consulting Group</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">Keystone</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#quienessomos">Quiénes somos<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#industrias">Industrias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios de consultoría</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Entregía digital</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+    <div class="jumbotron jcree">
+        <h1 style="padding-top: 270px;">Lo que creemos</h1>
+    </div>
+
+    <div class="content" style="max-width: 50%; padding-top: 50px; padding-bottom: 50px; margin: 0 auto;">
+        <p>Nos guiamos por nuestro compromiso inquebrantable de hacer siempre lo correcto por parte de nuestros clientes, personas y comunidades.
+
+        Definimos estrategias y objetivos con nuestros clientes, luego trabajamos como equipo para crear niveles tan altos de valor que establecemos nuevos estándares de excelencia para las industrias.
+        </p>
+    </div>
+
+
+    <div class="jumbotron jcree-1">
+        <h2>Enfoque basado en resultados</h2>
+        <div class="content" style="max-width: 50%; padding-top: 50px; margin: 0 auto;">
+            <h4>
+                Resultados, no informes
+            </h4>
+            <p>
+                Comenzamos a trabajar con el principio de que los clientes deberían obtener resultados, no solo informes, por parte de sus consultores. Desarrollamos estrategias robustas y personalizadas para ayudar a nuestros clientes a lograr sus objetivos. 
+            </p>
+            <h4>
+                Economía vinculada
+            </h4>
+            <p>
+                Tenemos acuerdos con nuestros clientes para alinear nuestros incentivos financieros con sus resultados. Nos apasiona ofrecer resultados tangibles, y estos acuerdos hacen que nuestros compromisos sean más que una promesa. Solo tenemos éxito cuando nuestros clientes también lo tienen.
+            </p>
+        </div>
+    </div>
+
+    
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+        $(document).ready(function() {
+            $('.mdb-select').materialSelect();
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>

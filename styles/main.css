@@ -1,0 +1,367 @@
+.navbar {
+    overflow: hidden;
+  }
+
+.nav-item {
+    overflow: hidden;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+    display: none;
+    position: absolute;
+}
+  
+  /* Style the subnav links */
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+  
+  /* Add a grey background color on hover */
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+.nav-item:hover .subnav-content {
+    display: block;
+}
+
+.carousel-inner img {
+    max-height: 100vh !important;
+}
+
+.white-rec {
+    max-width: 400px;
+    max-height: 500px;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+}
+
+.white-rec h1 {
+    margin: 5%;
+}
+
+.white-rec p {
+    margin: 5%;
+    padding-bottom: 15px !important;
+}
+
+.jqs {
+    background-image: url(../media/quienessomos_3.jpg) !important;
+    background-size: cover;
+    min-height: 100vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+.jqs-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jqs-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jqs-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jqs-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.jind {
+    background-image: url(../media/industrias_1.jpg) !important;
+    background-size: cover;
+    min-height: 100vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+.jind-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jind-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jind-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jind-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.imgserv {
+    max-width: 335px;
+}
+
+.jimgserv {
+    max-width: 250px;
+    min-height: 150px !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.fila div {
+    max-width: 32vw !important;
+}
+
+.divserv {
+    border: 1px solid;
+}
+
+.jserv {
+    background-image: url(../media/quienessomos_2.jpg) !important;
+    background-size: cover;
+    min-height: 100vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jserv-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jserv-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jserv-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jserv-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.jproy {
+    background-image: url(../media/entregadigital.jpg) !important;
+    background-size: cover;
+    min-height: 100vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jproy-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jproy-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divline {
+    width: 100%;
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    padding-bottom: 50px;
+}
+
+.jproy-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jproy-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.jcontac {
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* LO QUE CREEMOS */
+
+.jcree {
+    background-image: url(../media/lqc.jpg) !important;
+    background-size: cover;
+    min-height: 80vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+/* LO QUE HACEMOS */
+
+.jhace {
+    background-image: url(../media/lqh.jpg) !important;
+    background-size: cover;
+    min-height: 80vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+.jcree-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jcree-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jcree-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jcree-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.jhace-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jhace-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jhace-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jhace-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+/* INDUSTRIAS */
+
+.jinds {
+    min-height: 80vh !important;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+.jinds-1 {
+    background-color: white;
+    min-height: 100vh !important;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.jinds-1 h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jinds-1 h2:before,
+h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.jinds-1 h2:after {
+    margin: 0 0 0 20px;
+}
+
+.spabul li {
+    padding-bottom: 10px;
+}
+
